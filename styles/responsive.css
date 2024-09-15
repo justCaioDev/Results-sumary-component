@@ -1,0 +1,24 @@
+@media screen and (max-width: 750px) {
+    .sumary-container {
+        flex-direction: column;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .left-side {
+        border-radius: 0 0 28px 28px;
+    }
+
+    .left-side .result-status {
+        font-size: 1.5rem;
+    }
+
+    .left-side .result-overview {
+        font-size: 0.875rem;
+    }
+
+    .right-side .reaction-result, .right-side .memory-result, .right-side .verbal-result, .right-side .visual-result {
+        padding: 16px;
+    }
+}
