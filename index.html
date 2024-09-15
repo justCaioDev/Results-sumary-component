@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/responsive.css">
-
+  
+  <script src="scripts/script.js" defer></script>
 </head>
 <body>
 
@@ -25,7 +26,7 @@
         <h1 class="sumary-result-title">Your Result</h1>
 
         <div class="sumary-result">
-          <p class="user-result">76</p>
+          <p id="user-result" class="user-result"></p>
           <p class="max-result">of 100</p>
         </div>
 
@@ -39,23 +40,31 @@
         <h1 class="sumary-results-title">Summary</h1>
 
         <div class="reaction-result">
-          <p class="reaction-label label-align"><img src="assets/images/icon-reaction.svg" alt="reaction icon"> Reaction</p>
-          <p class="reaction-value value"><span class="user-rate">80</span> / 100</p>
+          <div id="category-title-0" class="category-title">
+            <p id="category-0" class="reaction-label label-align"></p>
+          </div>
+          <p class="reaction-value value"><span id="score-0" class="user-score"></span> / 100</p>
         </div>
 
         <div class="memory-result">
-          <p class="memory-label label-align"><img src="assets/images/icon-memory.svg" alt="memory icon"> Memory</p>
-          <p class="memory-value value"><span class="user-rate">92</span> / 100</p>
+          <div id="category-title-1" class="category-title">
+            <p id="category-1" class="memory-label label-align"></p>
+          </div>
+          <p class="memory-value value"><span id="score-1" class="user-score"></span> / 100</p>
         </div>
 
         <div class="verbal-result">
-          <p class="verbal-label label-align"><img src="assets/images/icon-verbal.svg" alt="verbal icon"> Verbal</p>
-          <p class="verbal-value value"><span class="user-rate">61</span> / 100</p>
+          <div id="category-title-2" class="category-title">
+            <p id="category-2" class="verbal-label label-align"><</p>
+          </div>
+          <p class="verbal-value value"><span id="score-2" class="user-score"></span> / 100</p>
         </div>
 
         <div class="visual-result">
-          <p class="visual-label label-align"><img src="assets/images/icon-visual.svg" alt="visual icon label-align"> Visual</p>
-          <p class="visual-value value"><span class="user-rate">72</span> / 100</p>
+          <div id="category-title-3" class="category-title">
+            <p id="category-3" class="visual-label label-align"></p>
+          </div>
+          <p class="visual-value value"><span id="score-3" class="user-score"></span> / 100</p>
         </div>
 
         <button class="continue-btn">Continue</button>

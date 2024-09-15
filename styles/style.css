@@ -136,7 +136,7 @@ p {
 }
 
 .right-side .reaction-label {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--light-red);
 }
 
@@ -153,7 +153,7 @@ p {
 }
 
 .right-side .memory-label {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--orangy-yellow);
 }
 
@@ -170,7 +170,7 @@ p {
 }
 
 .right-side .verbal-label {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--green-teal);
 }
 
@@ -186,8 +186,15 @@ p {
     background-color: hsla(234, 85%, 45%, 0.1);
 }
 
+.right-side .category-title {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 12px;
+}
+
 .right-side .visual-label {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--cobalt-blue);
 }
 
@@ -196,7 +203,7 @@ p {
     color: hsla(224, 30%, 27%, 0.7);
 }
 
-.right-side .user-rate {
+.right-side .user-score {
     font-weight: 800;
     color: var(--dark-gray-blue);
 }
