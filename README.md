@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://justcaiodev.github.io/Results-sumary-component/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-sumary-component-using-a-json-file-ToP6kgF8KM)
+- Live Site URL: [Results sumary component](https://justcaiodev.github.io/Results-sumary-component/)
 
 ## My process
 
